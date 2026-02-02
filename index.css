@@ -1,0 +1,12 @@
+/* Minimal app stylesheet to prevent missing /index.css 404s */
+html, body, #root {
+  height: 100%;
+}
+body {
+  margin: 0;
+  background: var(--app-bg, #fdfdfe);
+  font-family: Inter, system-ui, -apple-system, sans-serif;
+}
+
+/* small utility */
+.visually-hidden { position: absolute !important; height: 1px; width: 1px; overflow: hidden; clip: rect(1px, 1px, 1px, 1px); }
